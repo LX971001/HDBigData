@@ -1,5 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 正常运行所需要组件和工具
+   1 安装node.js
+   2 命令行 运行以下代码进行安装
+          npm install antd --save
+          npm install echarts
+          npm install react-router-dom --save-dev
+          npm install axios
+          npm install react-bootstrap bootstrap
+   3 路由设置
+          3.1 /package.json中更改proxy为后台地址
+          3.2 在service中更改api
+   4 运行
+         在命令行cd到文件夹后输入
+             npm start
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
